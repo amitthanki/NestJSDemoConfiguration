@@ -1,0 +1,16 @@
+{
+    "type": "mssql",
+    "host": "localhost",
+    "username": "test",
+    "password": "test",
+    "database": "FrapperAPIDB",
+    "synchronize": false,
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "extra": {
+      "driver": "msnodesqlv8",
+      "options": {
+        "trustedConnection": true,
+         "encrypt": false
+      }
+    }
+ }
